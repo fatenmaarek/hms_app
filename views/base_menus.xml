@@ -1,0 +1,17 @@
+<odoo>
+    <menuitem id="menu_hms"
+              name="HMS"
+              web_icon="hms_app,static/description/icon.png"/>
+
+    <menuitem id="menu_root_patient"
+              name="Patient"
+              parent="main_menu"/>
+
+    <menuitem id="menu_root_department"
+              name="Department"
+              parent="main_menu"/>
+
+    <menuitem id="menu_root_doctor"
+              name="Doctor"
+              parent="main_menu"/>
+</odoo>
